@@ -2,7 +2,7 @@
 
 **raylib is a simple and easy-to-use library to learn videogames programming.**
 
-raylib-pascal is the pascal port of the c99 [raylib](https://github.com/raysan5/raylib) library by [raysan5](https://github.com/raysan5)
+raylib-pascal is the pascal bindings to the c99 [raylib](https://github.com/raysan5/raylib) library by [raysan5](https://github.com/raysan5)
 
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE.md)
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Follow)](https://twitter.com/drezgames)
