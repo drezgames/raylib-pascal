@@ -20,7 +20,7 @@ features
   - Shaders support, including Model shaders and Postprocessing shaders
   - Audio loading and playing with streaming support (WAV, OGG, MP3, FLAC, XM, MOD)
   - **VR stereo rendering** support with configurable HMD device parameters
-  - Bindings developed/tested with **Delphi 10.2**. Should also work with **FPC**.
+  - Bindings for Delphi/FPC. Developed/tested with **Delphi 10.2**
 
 contact
 -------
