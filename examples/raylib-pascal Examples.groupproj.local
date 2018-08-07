@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/07/22 18:15:50.000.813,C:\Users\drezgames\DropBox\Dev\Tools\raylib-pascal\examples\raylib-pas examples.groupproj=C:\Users\drezgames\Documents\Embarcadero\Studio\Projects\ProjectGroup1.groupproj</Transaction>
+    <Transaction>2018/08/06 22:44:37.713,C:\Users\drezgames\Documents\GitHub\raylib-pascal\examples\raylib-pascal Examples.groupproj=C:\Users\drezgames\Documents\GitHub\raylib-pascal\examples\raylib-pas examples.groupproj</Transaction>
+  </Transactions>
+	<Default.Personality>
+		<Projects ActiveProject="C:\Users\drezgames\Documents\GitHub\raylib-pascal\examples\textures_particles_blending.dproj"/>
+	</Default.Personality>
+</BorlandProject>

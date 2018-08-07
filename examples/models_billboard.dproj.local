@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/04/19 00:03:56.000.365,C:\Users\drezgames\Documents\Development\Tool\raylib-pascal\examples\shapes_lines_bezier.dproj=C:\Users\drezgames\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/04/19 00:04:37.000.493,=C:\Users\drezgames\Documents\Development\Tool\raylib-pascal\lib\raylib.pas</Transaction>
+    <Transaction>2018/04/19 00:05:13.000.572,C:\Users\drezgames\Documents\Development\Tool\raylib-pascal\examples\template.dproj=C:\Users\drezgames\Documents\Development\Tool\raylib-pascal\examples\shapes_lines_bezier.dproj</Transaction>
+    <Transaction>2018/04/19 01:36:55.000.161,C:\Users\drezgames\Documents\Development\Tool\raylib-pascal\examples\models_billboard.dproj=C:\Users\drezgames\Documents\Development\Tool\raylib-pascal\examples\template.dproj</Transaction>
+    <Transaction>2018/07/22 18:33:36.000.645,=C:\Users\drezgames\DropBox\Dev\Tools\raylib-pascal\libs\raylib.pas</Transaction>
+  </Transactions>
+</BorlandProject>

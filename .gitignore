@@ -1,0 +1,5 @@
+temp/
+testbed/
+examples/Win32/
+examples/__recovery/
+libs/__recovery/

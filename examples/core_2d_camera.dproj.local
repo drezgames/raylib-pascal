@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/04/18 22:19:09.000.699,C:\Users\drezgames\Documents\Development\Tool\raylib-pascal\examples\core_2d_camera.dproj=C:\Users\drezgames\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/04/18 22:19:30.000.168,=C:\Users\drezgames\Documents\Development\Tool\raylib-pascal\lib\raylib.pas</Transaction>
+    <Transaction>2018/07/22 18:22:54.000.254,=C:\Users\drezgames\DropBox\Dev\Tools\raylib-pascal\libs\raylib.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,108 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{51174603-13D1-4EC1-96B1-ED0A09071728}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="audio_music_stream.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="core_2d_camera.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="models_billboard.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="shaders_custom_uniform.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="shapes_lines_bezier.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="textures_image_generation.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="textures_particles_blending.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="audio_music_stream">
+        <MSBuild Projects="audio_music_stream.dproj"/>
+    </Target>
+    <Target Name="audio_music_stream:Clean">
+        <MSBuild Projects="audio_music_stream.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="audio_music_stream:Make">
+        <MSBuild Projects="audio_music_stream.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="core_2d_camera">
+        <MSBuild Projects="core_2d_camera.dproj"/>
+    </Target>
+    <Target Name="core_2d_camera:Clean">
+        <MSBuild Projects="core_2d_camera.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="core_2d_camera:Make">
+        <MSBuild Projects="core_2d_camera.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="models_billboard">
+        <MSBuild Projects="models_billboard.dproj"/>
+    </Target>
+    <Target Name="models_billboard:Clean">
+        <MSBuild Projects="models_billboard.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="models_billboard:Make">
+        <MSBuild Projects="models_billboard.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="shaders_custom_uniform">
+        <MSBuild Projects="shaders_custom_uniform.dproj"/>
+    </Target>
+    <Target Name="shaders_custom_uniform:Clean">
+        <MSBuild Projects="shaders_custom_uniform.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="shaders_custom_uniform:Make">
+        <MSBuild Projects="shaders_custom_uniform.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="shapes_lines_bezier">
+        <MSBuild Projects="shapes_lines_bezier.dproj"/>
+    </Target>
+    <Target Name="shapes_lines_bezier:Clean">
+        <MSBuild Projects="shapes_lines_bezier.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="shapes_lines_bezier:Make">
+        <MSBuild Projects="shapes_lines_bezier.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="textures_image_generation">
+        <MSBuild Projects="textures_image_generation.dproj"/>
+    </Target>
+    <Target Name="textures_image_generation:Clean">
+        <MSBuild Projects="textures_image_generation.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="textures_image_generation:Make">
+        <MSBuild Projects="textures_image_generation.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="textures_particles_blending">
+        <MSBuild Projects="textures_particles_blending.dproj"/>
+    </Target>
+    <Target Name="textures_particles_blending:Clean">
+        <MSBuild Projects="textures_particles_blending.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="textures_particles_blending:Make">
+        <MSBuild Projects="textures_particles_blending.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="audio_music_stream;core_2d_camera;models_billboard;shaders_custom_uniform;shapes_lines_bezier;textures_image_generation;textures_particles_blending"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="audio_music_stream:Clean;core_2d_camera:Clean;models_billboard:Clean;shaders_custom_uniform:Clean;shapes_lines_bezier:Clean;textures_image_generation:Clean;textures_particles_blending:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="audio_music_stream:Make;core_2d_camera:Make;models_billboard:Make;shaders_custom_uniform:Make;shapes_lines_bezier:Make;textures_image_generation:Make;textures_particles_blending:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

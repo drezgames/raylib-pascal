@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/04/19 00:03:56.000.365,C:\Users\drezgames\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\drezgames\Documents\Development\Tool\raylib-pascal\examples\shapes_lines_bezier.dproj</Transaction>
+    <Transaction>2018/04/19 00:04:37.000.493,=C:\Users\drezgames\Documents\Development\Tool\raylib-pascal\lib\raylib.pas</Transaction>
+    <Transaction>2018/07/22 18:34:11.000.563,=C:\Users\drezgames\DropBox\Dev\Tools\raylib-pascal\libs\raylib.pas</Transaction>
+  </Transactions>
+</BorlandProject>
