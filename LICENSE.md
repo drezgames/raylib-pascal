@@ -1,9 +1,7 @@
 MIT License
 
 Copyright (c) 2018 dRez Games
-
 All Rights Reserved.
-
 [https://drez.games](https://drez.games)
 
 
