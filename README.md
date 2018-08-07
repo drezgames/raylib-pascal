@@ -11,7 +11,6 @@ features
 --------
   - **NO external dependencies**, all required libraries included with raylib
   - Current platforms supported: **Windows**
-  - Written in plain C code (C99) in PascalCase/camelCase notation
   - Hardware accelerated with OpenGL
   - Multiple Fonts formats supported (XNA fonts, AngelCode fonts, TTF)
   - Outstanding texture formats support, including compressed formats (DXT, ETC, ASTC)
