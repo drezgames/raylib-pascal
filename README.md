@@ -6,6 +6,7 @@ raylib-pascal is the pascal bindings to the c99 [raylib](https://github.com/rays
 
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE.md)
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Follow)](https://twitter.com/drezgames)
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/drezgames/raylib-pascal.svg?columns=all)](https://waffle.io/drezgames/raylib-pascal)
 
 features
 --------
